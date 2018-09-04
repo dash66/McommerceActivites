@@ -26,11 +26,9 @@ public class ExpeditionController {
 
     //Récuperer un produit par son id
     @GetMapping(value = "/expeditions/{id}")
-    public Optional<Expedition> recupererUneExpedition(@PathVariable int id) {
+    public Optional<Expedition> etatExpedition(@PathVariable int id) {
 
         Optional<Expedition> expedition = expeditionDao.findById(id);
-
-        //  if(!expedition.isPresent())  throw new ProductNotFoundException("Le produit correspondant à l'id " + id + " n'existe pas");
 
         return expedition;
     }
