@@ -12,15 +12,21 @@
 
 <div class="container">
 
-    <h1 class="text-center">Application Mcommerce</h1>
+    <h1 class="text-center"><b>Application Mcommerce</b></h1>
+    <br>
+    <br>
+    <h2 class="text-center"><b>Exercice 2</b></h2>
+    <br>
+    <br>
+    <p class="text-center">commande n° <span th:text="${expedition.idCommande}"></span></p>
 
     <div class="row">
         <div class="col-md-4 mx-auto mt-5 text-center">
 
             <div th:switch="${expedition.getEtat()}">
-                <p th:case="${0}">La commande est en préparation</p>
-                <p th:case="${1}">La commande est expédiée</p>
-                <p th:case="${2}">Le commande est livrée</p>
+                <p style="color: gold" th:case="${0}"><b>en préparation</b></p>
+                <b style ="color: chartreuse" th:case="${1}"><b></b>expédiée</b></p>
+                <b style ="color : aqua" th:case="${2}"><b></b>livrée</b></p>
 
             </div>
         </div>

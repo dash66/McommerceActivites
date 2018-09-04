@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef4e892-f79e-4edd-a115-8735fa2cdc41" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/exceptions/ExpeditionNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/exceptions/ImpossibleAjouterExpeditionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/beans/ExpeditionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/beans/ExpeditionBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceExpeditionProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceExpeditionProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientui/src/main/resources/templates/Confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/clientui/src/main/resources/templates/Confirmation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clientui/src/main/resources/templates/EtatExpedition.html" beforeDir="false" afterPath="$PROJECT_DIR$/clientui/src/main/resources/templates/EtatExpedition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server-repo/microservice-expedition.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server-repo/microservice-expedition.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-commandes/src/main/java/com/mcommandes/McommandesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-commandes/src/main/java/com/mcommandes/McommandesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-expedition/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-expedition/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/MicroserviceExpeditionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/MicroserviceExpeditionApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/dao/ExpeditionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/dao/ExpeditionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/model/Expedition.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/model/Expedition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/controller/ExpeditionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/controller/ExpeditionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-expedition/src/main/resources/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-paiement/src/main/java/com/mpaiement/MpaiementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-paiement/src/main/java/com/mpaiement/MpaiementApplication.java" afterDir="false" />
     </list>
     <ignored path="Mcommerce-SpringAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +27,7 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="30331" />
+    <option name="totalTimeSeconds" value="31313" />
     <option name="naggedAbout" value="1" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -65,9 +48,9 @@
         <counts>
           <entry key="cmd" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="22" />
+          <entry key="html" value="23" />
           <entry key="iml" value="4" />
-          <entry key="java" value="129" />
+          <entry key="java" value="132" />
           <entry key="mvnw" value="1" />
           <entry key="properties" value="71" />
           <entry key="xml" value="30" />
@@ -77,9 +60,9 @@
         <counts>
           <entry key="Bash" value="1" />
           <entry key="Cmd" value="1" />
-          <entry key="HTML" value="22" />
+          <entry key="HTML" value="23" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="129" />
+          <entry key="JAVA" value="132" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="71" />
           <entry key="XML" value="30" />
@@ -88,7 +71,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="html" value="295" />
+          <entry key="html" value="513" />
           <entry key="java" value="2145" />
           <entry key="properties" value="164" />
           <entry key="xml" value="136" />
@@ -96,7 +79,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="295" />
+          <entry key="HTML" value="513" />
           <entry key="JAVA" value="2145" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Properties" value="164" />
@@ -111,10 +94,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceExpeditionProxy.java">
+        <entry file="file://$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/controller/ExpeditionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="510">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#701#716#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/exceptions/ExpeditionNotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,52 +118,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientui/src/main/resources/templates/Confirmation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clientui/src/main/resources/templates/EtatExpedition.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/controller/ClientController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+            <state relative-caret-position="272">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
-                <element signature="e#3780#3833#1" expanded="true" />
-                <element signature="e#4281#4372#1" expanded="true" />
-                <element signature="e#4611#4666#1" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/beans/CommandeBean.java">
+        <entry file="file://$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/exceptions/ImpossibleAjouterExpeditionException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/beans/ExpeditionBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="119">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -241,9 +213,9 @@
         <option value="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/model/Expedition.java" />
         <option value="$PROJECT_DIR$/microservice-expedition/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceExpeditionProxy.java" />
-        <option value="$PROJECT_DIR$/clientui/src/main/resources/templates/EtatExpedition.html" />
         <option value="$PROJECT_DIR$/clientui/src/main/java/com/clientui/beans/ExpeditionBean.java" />
         <option value="$PROJECT_DIR$/clientui/src/main/java/com/clientui/controller/ClientController.java" />
+        <option value="$PROJECT_DIR$/clientui/src/main/resources/templates/EtatExpedition.html" />
       </list>
     </option>
   </component>
@@ -356,48 +328,6 @@
               <item name="clientui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="McommerceActivites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="McommerceActivites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientui" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="McommerceActivites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientui" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="McommerceActivites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clientui" type="462c0819:PsiDirectoryNode" />
-              <item name="proxies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="McommerceActivites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clientui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -474,6 +404,16 @@
               <item name="mexpedition" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="McommerceActivites" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-expedition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mexpedition" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="McommerceActivites" type="b2602c69:ProjectViewProjectNode" />
@@ -758,7 +698,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536072598402" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536073686551" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v8.4.0/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1166,16 +1106,15 @@
       <workItem from="1536060075411" duration="432000" />
       <workItem from="1536060537380" duration="1630000" />
       <workItem from="1536062240330" duration="2804000" />
-      <workItem from="1536065083136" duration="7441000" />
+      <workItem from="1536065083136" duration="8583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64815000" />
+    <option name="totallyTimeSpent" value="65957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1663113" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -1353,16 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/exceptions/ImpossibleAjouterExpeditionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-commandes/src/main/java/com/mcommandes/web/exceptions/ImpossibleAjouterCommandeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1374,16 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="35" column="101" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/exceptions/ExpeditionNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1524,21 +1443,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/controller/ExpeditionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#701#716#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-expedition/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/controller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="e#3780#3833#1" expanded="true" />
+            <element signature="e#4281#4372#1" expanded="true" />
+            <element signature="e#4611#4666#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientui/src/main/resources/templates/Confirmation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -1549,20 +1476,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientui/src/main/resources/templates/EtatExpedition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientui/src/main/resources/templates/Confirmation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -1580,14 +1493,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientui/src/main/java/com/clientui/controller/ClientController.java">
+    <entry file="file://$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/exceptions/ImpossibleAjouterExpeditionException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+        <state relative-caret-position="119">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="49" />
           <folding>
-            <element signature="e#3780#3833#1" expanded="true" />
-            <element signature="e#4281#4372#1" expanded="true" />
-            <element signature="e#4611#4666#1" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/controller/ExpeditionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#701#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/exceptions/ExpeditionNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientui/src/main/resources/templates/EtatExpedition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
