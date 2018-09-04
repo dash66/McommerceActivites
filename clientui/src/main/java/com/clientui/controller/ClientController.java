@@ -123,6 +123,13 @@ public class ClientController {
         if (paiement.getStatusCode() == HttpStatus.CREATED)
             paiementAccepte = true;
 
+
+        ExpeditionBean expeditionSuivie = new ExpeditionBean();
+        expeditionSuivie.setId(0);
+        expeditionSuivie.setEtat(1);
+        expeditionSuivie.setIdCommande(idCommande);
+        expeditionProxy.ajouterUneExpedition(expeditionSuivie);
+        model.addAttribute("expedition", expeditionSuivie);
         model.addAttribute("paiementOk", paiementAccepte); // on envoi un Boolean paiementOk à la vue
 
         return "confirmation";
@@ -138,12 +145,12 @@ public class ClientController {
      * Étape (6)
      * Opération qui fait appel au microservice d'expedition pour récupérer une expédition
      * */
-    @RequestMapping("/suivi/{id}")
-    public String etatExpedition(@PathVariable int id, Model model) {
+    @RequestMapping("/suivi/{idCommande}")
+    public String etatExpedition(@PathVariable Integer idCommande, Model model) {
 
-        Optional<ExpeditionBean> exp = expeditionProxy.etatExpedition(id);
-
-        model.addAttribute("expedition", exp);
+        Optional<ExpeditionBean> exp = expeditionProxy.etatExpedition(idCommande);
+        ExpeditionBean expedition = exp.get();
+        model.addAttribute("expedition", expedition);
 
         return "EtatExpedition";
     }

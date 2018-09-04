@@ -17,18 +17,13 @@
     <div class="row">
         <div class="col-md-4 mx-auto mt-5 text-center">
 
-            <div th:switch="${expedition.get()}">
-            <p th:case="${0}">La commande est en préparation</p>
+            <div th:switch="${expedition.getEtat()}">
+                <p th:case="${0}">La commande est en préparation</p>
+                <p th:case="${1}">La commande est expédiée</p>
+                <p th:case="${2}">Le commande est livrée</p>
 
-            <p th:case="${1}">
-                La commande est expédiée
-            </p>
-            <p th:case="${2}">
-                Le commande est livrée
-            </p>
-
+            </div>
         </div>
-    </div>
     </div>
 </div>
 

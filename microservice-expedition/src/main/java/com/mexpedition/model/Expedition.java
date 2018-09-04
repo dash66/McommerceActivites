@@ -1,5 +1,6 @@
 package com.mexpedition.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -10,6 +11,7 @@ public class Expedition {
     @Id
     @GeneratedValue
     private int id;
+    @Column(unique=true)
     private int idCommande;
     private int etat;
 
