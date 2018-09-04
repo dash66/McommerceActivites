@@ -20,22 +20,25 @@ public class ExpeditionController {
 
         Expedition nouvelleExpedition = expeditionDao.save(expedition);
 
+        TODO: /* return */
         return null;
     }
 
     //Récuperer un produit par son id
-    @GetMapping( value = "/expeditions/{id}")
+    @GetMapping(value = "/expeditions/{id}")
     public Optional<Expedition> recupererUneExpedition(@PathVariable int id) {
 
         Optional<Expedition> expedition = expeditionDao.findById(id);
 
-      //  if(!expedition.isPresent())  throw new ProductNotFoundException("Le produit correspondant à l'id " + id + " n'existe pas");
+        //  if(!expedition.isPresent())  throw new ProductNotFoundException("Le produit correspondant à l'id " + id + " n'existe pas");
 
         return expedition;
     }
 
-    @PutMapping ("/expeditions/update/{id}")
-    TODO
+    @PutMapping("/expeditions/update")
+    public void updateExpedition(@RequestBody Expedition expedition) {
 
+             expeditionDao.save(expedition);
+    }
 
 }
